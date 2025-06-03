@@ -65,6 +65,11 @@ header {
     box-shadow: 0 4px 8px rgba(219, 96, 96, 0.2); 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
+.cover img{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+}
 .cover:hover {
     transform: translateY(-5px); 
     background-color: rgb(243, 233, 233); 
