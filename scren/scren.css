@@ -1,0 +1,208 @@
+@media screen and (max-width: 320px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .logo b {
+        font-size: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .header button {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .container {
+        padding: 10px;
+        padding-top: 85px;
+        background-position: top;
+    }
+
+    .container b {
+        font-size: 20px;
+    }
+
+    .bidang {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cover {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .cover img {
+        width: 120px;
+        height: 120px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .logo b {
+        font-size: 22px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .header button {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .container {
+        padding: 10px;
+        padding-top: 85px;
+        background-position: top;
+    }
+
+    .container b {
+        font-size: 22px;
+    }
+
+    .bidang {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .cover {
+        width: 85%;
+        padding: 18px;
+    }
+
+    .cover img {
+        width: 130px;
+        height: 130px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .logo b {
+        font-size: 24px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .header button {
+        font-size: 16px;
+        padding: 6px 14px;
+    }
+
+    .container {
+        padding: 10px;
+        padding-top: 90px;
+        background-position: top;
+    }
+
+    .container b {
+        font-size: 24px;
+    }
+
+    .bidang {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cover {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .cover img {
+        width: 140px;
+        height: 140px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 16px 0;
+    }
+
+    .logo b {
+        font-size: 30px;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .header button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .container {
+        padding: 20px;
+        padding-top: 100px;
+        background-position: center top;
+    }
+
+    .container b {
+        font-size: 28px;
+    }
+
+    .bidang {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .cover {
+        width: 48%;
+        padding: 25px;
+        border-width: 3px;
+        border-radius: 12px;
+    }
+
+    .cover img {
+        width: 160px;
+        height: 160px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
